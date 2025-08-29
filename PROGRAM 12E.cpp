@@ -1,3 +1,10 @@
+// NAME: YASH SHRIVASTAVA
+// PRN: 24070123137
+// BATCH: E&TC-B2
+// TITLE: DESTRUCTOR (EXPERIMENT: 12E)
+
+// CODE: 
+
 #include <iostream>
 using namespace std;
 int count = 0;
