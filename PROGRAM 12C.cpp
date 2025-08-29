@@ -1,3 +1,10 @@
+// NAME: YASH SHRIVASTAVA
+// PRN: 24070123137
+// BATCH: E&TC-B2
+// TITLE: PARAMETERIZED CONSTRUCTOR (EXPERIMENT: 12C)
+
+// CODE: 
+
 #include <iostream>
 using namespace std;
 
