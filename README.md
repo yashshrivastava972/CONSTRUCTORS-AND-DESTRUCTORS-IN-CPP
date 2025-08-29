@@ -59,6 +59,37 @@
 
 # Algorithms:
 
+## Algorithm No. 1:
+
+Step 1: Start the program.
+
+Step 2: Define a class student with:
+
+Data members → rollno, name, fee.
+Member functions →
+Constructor: to input roll number, name, and fee from the user.
+display(): to output the details.
+
+Step 3: In the constructor:
+
+Prompt user → "ENTER THE ROLLNO:"
+Read rollno.
+Use cin.ignore() to clear input buffer.
+Prompt user → "ENTER THE NAME:"
+Read name using getline() (to allow spaces).
+Prompt user → "ENTER THE FEE:"
+Read fee.
+
+Step 4: In display() function:
+Print the values of rollno, name, and fee.
+
+Step 5: In main() function:
+Create an object s1 of class student.
+This automatically calls the constructor and takes input.
+Call s1.display() to display the stored details.
+
+Step 6: End the program.
+
 
 
 
