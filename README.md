@@ -66,31 +66,115 @@ Step 1: Start the program.
 Step 2: Define a class student with:
 
 Data members → rollno, name, fee.
+
 Member functions →
+
 Constructor: to input roll number, name, and fee from the user.
+
 display(): to output the details.
 
 Step 3: In the constructor:
 
 Prompt user → "ENTER THE ROLLNO:"
+
 Read rollno.
+
 Use cin.ignore() to clear input buffer.
+
 Prompt user → "ENTER THE NAME:"
+
 Read name using getline() (to allow spaces).
+
 Prompt user → "ENTER THE FEE:"
+
 Read fee.
 
 Step 4: In display() function:
+
 Print the values of rollno, name, and fee.
 
 Step 5: In main() function:
+
 Create an object s1 of class student.
+
 This automatically calls the constructor and takes input.
+
 Call s1.display() to display the stored details.
 
 Step 6: End the program.
 
+## Algorithm No. 2:
 
+Step 1: Start the program.
 
+Step 2: Define a class construct with:
 
+Data members: a, b.
 
+A parameterized constructor that takes two arguments (m, n) and initializes a = m, b = n.
+
+A member function display() to print values of a and b.
+
+Step 3: In the main() function:
+
+Create an object of the class and pass values 10 and 20 to the constructor.
+
+This automatically sets a = 10 and b = 20.
+
+Call display() function using the object to print values.
+
+Step 4: End the program.
+
+## Algorithm No. 3:
+
+Step 1: Start the program.
+
+Step 2: Define a class Student with:
+
+Data members: name (string), age (int).
+
+A parameterized constructor → initializes name and age.
+
+A copy constructor → copies data from another object and prints "COPY CONSTRUCTOR CALLED!".
+
+A display() function → prints name and age.
+
+Step 3: In main():
+
+Create an object s1 using parameterized constructor with values "YASH SHRIVASTAVA", 20.
+
+Create another object s2 as a copy of s1 → this invokes the copy constructor.
+
+Print "ORIGINAL OBJECT:" and call s1.display().
+
+Print "COPIED OBJECT:" and call s2.display().
+
+Step 4: End the program.
+
+## Algorithm No. 4:
+
+Step 1: Start the program.
+
+Step 2: Declare a global integer count = 0 to track number of objects.
+
+Step 3: Define a class destruct with:
+
+A constructor → increments count and prints number of objects created.
+
+A destructor → decrements count and prints number of objects destroyed.
+
+Step 4: In main():
+
+Create three objects aa, bb, and cc.
+
+Constructor runs 3 times.
+
+Create a block { ... } and inside it, create object dd.
+
+Constructor runs for dd.
+
+At end of block, destructor runs for dd.
+
+At the end of main(), destructors run automatically for aa, bb, and cc in reverse order.
+
+Step 5: End the program.
