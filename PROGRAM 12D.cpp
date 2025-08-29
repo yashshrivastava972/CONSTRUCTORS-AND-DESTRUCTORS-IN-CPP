@@ -1,3 +1,10 @@
+// NAME: YASH SHRIVASTAVA
+// PRN: 24070123137
+// BATCH: E&TC-B2
+// TITLE: COPY CONSTRUCTOR (EXPERIMENT: 12D)
+
+// CODE: 
+
 #include <iostream>
 using namespace std;
    class Student{
