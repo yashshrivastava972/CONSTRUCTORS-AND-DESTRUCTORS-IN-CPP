@@ -27,9 +27,9 @@
 
 •	The syntax for defining the constructor within the class:
 	<class-name> (list-of-parameters) { // constructor definition }
+ 
 •	The syntax for defining the constructor outside the class:
-
-<class-name>: :<class-name> (list-of-parameters){ // constructor definition}
+    <class-name>: :<class-name> (list-of-parameters){ // constructor definition}
 
 ## TYPES OF CONSTRUCTORS:
 
