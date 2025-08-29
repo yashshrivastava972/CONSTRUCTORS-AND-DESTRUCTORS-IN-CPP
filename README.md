@@ -182,8 +182,8 @@ Step 5: End the program.
 # Conclusion:
 From this study, we understood the concept and importance of constructors and destructors in C++.
 
-### Constructors are special member functions that are automatically invoked at the time of object creation. They help in initializing data members and ensuring that the object starts in a valid state.
+#### Constructors are special member functions that are automatically invoked at the time of object creation. They help in initializing data members and ensuring that the object starts in a valid state.
 
-### Destructors are special member functions that are automatically called when an object goes out of scope or is explicitly deleted. They are mainly used to release resources, perform clean-up activities, and free memory.
+#### Destructors are special member functions that are automatically called when an object goes out of scope or is explicitly deleted. They are mainly used to release resources, perform clean-up activities, and free memory.
 
 By implementing constructors and destructors in programs, we learned how object lifecycle (creation and destruction) is managed in C++. This ensures proper initialization, memory management, and prevents resource leakage. Thus, constructors and destructors play a vital role in achieving robust, reliable, and efficient object-oriented programming.
