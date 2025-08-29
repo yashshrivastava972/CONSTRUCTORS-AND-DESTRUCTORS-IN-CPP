@@ -1,3 +1,9 @@
+// NAME: YASH SHRIVASTAVA
+// PRN: 24070123137
+// BATCH: E&TC-B2
+// TITLE: DEFAULT CONSTRUCTOR OUTSIDE THE CLASS (EXPERIMENT: 12B)
+
+// CODE: 
 #include <iostream>
 #include <string>
 using namespace std;
